@@ -1,15 +1,22 @@
 import React from 'react';
+import style from 'styled-components';
 
-function Header() {
 
-  return (
-      <header>
-        <nav>
-          Nasa Stuff
-        </nav>
-      </header>
-  );
-}
+export const Header = style.div`
+  border: 1px solid black;
+  background-color: light:blue;
+`;
 
-export default Header;
+// function Header() {
+
+//   return (
+//       <header>
+//         <nav>
+//           Nasa Stuff
+//         </nav>
+//       </header>
+//   );
+// }
+
+// export default Header;
  
